@@ -1,0 +1,23 @@
+.userbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ddd;
+  border-left: 1px solid #ddd;
+  margin-bottom: 10px;
+  padding: 6px 16px;
+  font-size: 14px;
+  margin: 0;
+  margin-bottom: -1px;
+  background: linear-gradient(#fcfdff, #e5f2ff);
+  width: auto;
+}
+
+.btn.logout {
+  padding: 3px 3px 6px;
+  background: #8dabca;
+  height: auto;
+  width: 100px;
+  font-size: 13px;
+  color: white;
+}

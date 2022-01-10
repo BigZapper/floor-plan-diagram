@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "casbin": "^5.11.5",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-async-handler": "^1.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.1.1"
+  },
+  "name": "drawio-v2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "build": "cd client && npm install && npm run build",
+    "start": "nodemon --watch api --exec node --experimental-modules api/index.js"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}

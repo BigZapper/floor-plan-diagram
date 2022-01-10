@@ -1,0 +1,142 @@
+.form-style-2 {
+  max-width: 500px;
+  padding: 20px 12px 10px 20px;
+  font: 13px Arial, Helvetica, sans-serif;
+}
+.form-style-2-heading {
+  font-weight: bold;
+  font-style: italic;
+  border-bottom: 2px solid #ddd;
+  margin-bottom: 20px;
+  font-size: 15px;
+  padding-bottom: 3px;
+}
+.form-style-2 label {
+  display: block;
+  margin: 0px 0px 15px 0px;
+}
+.form-style-2 label > span {
+  width: 110px;
+  font-weight: bold;
+  float: left;
+  padding-top: 8px;
+  padding-right: 5px;
+  align-self: baseline;
+}
+.form-style-2 span.required {
+  color: red;
+}
+.form-style-2 .tel-number-field {
+  width: 40px;
+  text-align: center;
+}
+.form-style-2 input.input-field,
+.form-style-2 .select-field {
+  width: 48%;
+  margin: 5px;
+  text-align: start;
+}
+.form-style-2 input.input-field,
+.form-style-2 .tel-number-field,
+.form-style-2 .textarea-field,
+.form-style-2 .select-field {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  border: 1px solid #c2c2c2;
+  box-shadow: 1px 1px 4px #ebebeb;
+  -moz-box-shadow: 1px 1px 4px #ebebeb;
+  -webkit-box-shadow: 1px 1px 4px #ebebeb;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  padding: 7px;
+  outline: none;
+  width: auto;
+}
+.form-style-2 .input-field:focus,
+.form-style-2 .tel-number-field:focus,
+.form-style-2 .textarea-field:focus,
+.form-style-2 .select-field:focus {
+  border: 1px solid #0c0;
+}
+.form-style-2 .textarea-field {
+  height: 80px;
+  width: 220px;
+}
+input[type='submit']:hover {
+  filter: invert(1);
+  cursor: pointer;
+}
+.form-style-2 input[type='submit'],
+.form-style-2 input[type='button'] {
+  border: none;
+  /* padding: 8px 15px 8px 15px; */
+  background: #00c4ac;
+  color: #fff;
+  height: auto;
+  font-weight: 500;
+  box-shadow: 1px 1px 4px #dadada;
+  -moz-box-shadow: 1px 1px 4px #dadada;
+  -webkit-box-shadow: 1px 1px 4px #dadada;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+}
+.form-style-2 input[type='submit']:hover,
+.form-style-2 input[type='button']:hover {
+  background: #00c4ac;
+  color: #fff;
+}
+input.btnCancel {
+  background: #e65d65 !important;
+  margin-left: 5px;
+}
+.btn-form-group {
+  display: flex;
+  justify-content: center;
+}
+.dialog-title {
+  padding: 15px;
+}
+.Upload {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+select.select-field {
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 14px;
+  border: 1px solid #ddd;
+  text-align: start;
+  color: darkslategray;
+  font-weight: bolder;
+}
+.shapeInfo {
+  text-align: end;
+  width: 150px;
+  padding: 5px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin: 5px 0;
+}
+.search-con {
+  position: absolute;
+  width: 255px;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  top: 25px;
+  right: -28px;
+  overflow: auto;
+  max-height: 90vh;
+}
+form.add.text-center.my-4.m0 {
+  margin: 0 !important;
+  padding: 10px;
+}
+.hide {
+  display: none;
+}
